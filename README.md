@@ -42,9 +42,7 @@ I used Balena Etcher (https://askubuntu.com/questions/1520383/how-to-run-balena-
 main.name = "dukegotchi"
 main.lang = "en"
 main.whitelist = [
-"covid19_5G",
-"covid19_2G",
-"SkyMobileDudu",
+"YOUR_WIFI_NAME",
 "fo:od:ba:be:fo:od",
 "fo:od:ba"
 ]
@@ -118,7 +116,7 @@ main.plugins.bt-tether.enabled = true
 main.plugins.bt-tether.devices.android-phone.enabled = true           # the name of this entry is android-phone
 main.plugins.bt-tether.devices.android-phone.search_order = 1         # in which order the devices should
                                                                       ## be searched. E.g. this is #1
-main.plugins.bt-tether.devices.android-phone.mac = "78:37:16:47:A2:72"# you need to put your phones
+main.plugins.bt-tether.devices.android-phone.mac = "XX:XX:XX:XX:XX:XX"# you need to put your phones
                                                                       ## bt-mac here (settings > status)
 main.plugins.bt-tether.devices.android-phone.ip = "192.168.44.44"     # this is the static ip of your pwnagotchi
                                                                       ## adjust this to your phones pan-network
