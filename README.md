@@ -154,7 +154,7 @@ This was a big pain because there are a lot of problems that can happen here, li
 
 But it weren’t any of those problems what happened to me, actually it was that the port that I was using on my PC was trashed and all the other ports were also shit (or I wasn’t waiting enough time, idk). A good trick to have up your sleeve is to check if the USB with the gotchi is connected using `lsblk`.
 
-Eventually I was able to partially connect the Ethernet (it remained on “connecting...”). However I found a bash script somewhere that solved this issues with a few tweaks (lsneeded to run as sudo):
+Eventually I was able to partially connect the Ethernet (it remained on “connecting...”). However I found a bash script somewhere that solved this issues with a few tweaks (needed to run as sudo):
 
 ```bash
 #!/usr/bin/env bash
@@ -188,7 +188,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 ssh "$GOTCHI_ADDR" "echo nameserver $YOUR_DNS | sudo tee -a /etc/resolv.conf"
 ```
 
-The main issue was on this line `USB_IFACE=${6:-enx86ffae88fbb4}` because the pwnagotchi adress is mutable and to find its adress you need to CLI this: `ip link` . While the ethernet is connecting you can `ip link` it and find something that starts with `enx…` then change it on the bash and run it. The bash is at `personal_projects/pwnagotchi`.
+The main issue was on this line `USB_IFACE=${6:-enx86ffae88fbb4}` because the pwnagotchi adress is mutable and to find its adress you need to CLI this: `ip link` . While the ethernet is connecting you can `ip link` it and find something that starts with `enx…` then change it on the bash and run it. The bash is also in this repo.
 
 Then you just have to ssh into it `ssh pi@10.0.0.2` to change the pi password (first ping this and see if it is all working) . It is by default “raspberry” and I changed to my Linux password.
 
