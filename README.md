@@ -218,7 +218,7 @@ To be sincere, I tried it only once and was able to connect the pwnagotchi to th
 
 - Materials used on the project:
 
-<img src= "./images/BOM.jpg" align="left" width="300"/><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src= "./images/BOM.jpg" align="left" width="300"/><br><br><br><br><br><br><br><br><br>
 
 - Finished project:
 
