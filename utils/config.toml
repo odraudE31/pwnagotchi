@@ -1,0 +1,101 @@
+main.name = "dukegotchi"
+main.lang = "en"
+main.whitelist = [
+"YOUR_WIFI_NAME",
+"fo:od:ba:be:fo:od",
+"fo:od:ba"
+]
+
+main.plugins.grid.enabled = true
+main.plugins.grid.report = true
+main.plugins.grid.exclude = [
+"YourHomeNetworkHere"
+]
+
+ui.display.enabled = true
+ui.display.type = "waveshare_3"
+
+ui.invert = true
+
+ui.fps = 0.5
+ui.display.color = "black"
+
+ui.faces.look_r = "( ◌_◌)"
+
+ui.faces.look_l = "(☹_☹ )"
+
+ui.faces.look_r_happy = "( ◆‿◆)"
+
+ui.faces.look_l_happy = "(◆‿◆ )"
+
+ui.faces.sleep = "(⇀‿‿↼)"
+
+ui.faces.sleep2 = "(≦‿‿≦)"
+
+ui.faces.awake = "(◕‿‿◕)"
+
+ui.faces.bored = "(-__-)"
+
+ui.faces.intense = "(°◃◃°)"
+
+ui.faces.cool = "(⌐□_□)"
+
+ui.faces.happy = "(•‿‿•)"
+
+ui.faces.excited = "(ᵔ□□ᵔ)"
+
+ui.faces.grateful = "(^‿‿^)"
+
+ui.faces.motivated = "(☀‿‿☀)"
+
+ui.faces.demotivated = "(≦__≦)"
+
+ui.faces.smart = "(✜‿‿✜)"
+
+ui.faces.lonely = "(ب__ب)"
+
+ui.faces.sad = "(╥☁╥ )"
+
+ui.faces.angry = "(-_-')"
+
+ui.faces.friend = "(♥‿‿♥)"
+
+ui.faces.broken = "(☓‿‿☓)"
+
+ui.faces.debug = "(#__#)"
+
+ui.faces.upload = "(1__0)"
+
+ui.faces.upload1 = "(1__1)"
+
+ui.faces.upload2 = "(0__1)"
+
+main.plugins.bt-tether.enabled = true
+
+main.plugins.bt-tether.devices.android-phone.enabled = true           # the name of this entry is android-phone
+main.plugins.bt-tether.devices.android-phone.search_order = 1         # in which order the devices should
+                                                                      ## be searched. E.g. this is #1
+main.plugins.bt-tether.devices.android-phone.mac = "XX:XX:XX:XX:XX:XX"# you need to put your phones
+                                                                      ## bt-mac here (settings > status)
+main.plugins.bt-tether.devices.android-phone.ip = "192.168.44.44"     # this is the static ip of your pwnagotchi
+                                                                      ## adjust this to your phones pan-network
+                                                                      ## (run "ifconfig bt-pan" on your phone)
+                                                                      ## if you feel lucky,
+                                                                      ## try: 192.168.44.44 (Android) or
+                                                                      ## 172.20.10.6 (iOS)
+                                                                      ## 44 is just an example, you can choose
+                                                                      ## between 2-254 (if netmask is 24)
+main.plugins.bt-tether.devices.android-phone.netmask = 24             # netmask of the PAN
+main.plugins.bt-tether.devices.android-phone.interval = 1             # in minutes, how often should
+                                                                      ## the device be searched
+main.plugins.bt-tether.devices.android-phone.scantime = 10            # in seconds, how long should be searched
+                                                                      ## on each interval
+main.plugins.bt-tether.devices.android-phone.max_tries = 10           # how many times it should try to find the
+                                                                      ## phone (0 = endless)
+main.plugins.bt-tether.devices.android-phone.share_internet = true    # set to true if you want to have
+                                                                      ## internet via bluetooth
+main.plugins.bt-tether.devices.android-phone.priority = 1             # the device with the highest
+                                                                      ## priority wins (1 = highest)
+
+main.plugins.bt-tether.devices.ios-phone.enabled = false              # next device...
+main.plugins.bt-tether.devices.ios-phone.search_order = 2

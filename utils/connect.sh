@@ -8,7 +8,7 @@ GOTCHI_ADDR=pi@10.0.0.2
 YOUR_DNS=1.1.1.1
 
 # name of the ethernet gadget interface on the host
-USB_IFACE=${6:-enx62575ea8cd3d}
+USB_IFACE=${6:-enx3e2d2fc64253}
 USB_IFACE_IP=10.0.0.1
 USB_IFACE_NET=10.0.0.0/24
 # host interface to use for upstream connection

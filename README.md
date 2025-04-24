@@ -214,3 +214,15 @@ After that follow the steps available in  https://pwnagotchi.org/common-issues/i
 
 To be sincere, I tried it only once and was able to connect the pwnagotchi to the phone but not keep it connected. However, after some time the pwnagotchi asked to connect and kept connected. After that, type `192.168.44.44:8080` on your browser and use the username and password **“changeme”.**
 
+##
+
+- Materials used on the project:
+
+<img src= "./images/BOM.jpg" align="left" width="300"/>
+
+- Finished project:
+
+<img src= "./images/BOM.jpg" align="left" width="300"/>
+
+
+
