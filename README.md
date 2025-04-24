@@ -218,11 +218,11 @@ To be sincere, I tried it only once and was able to connect the pwnagotchi to th
 
 - Materials used on the project:
 
-<img src= "./images/BOM.jpg" align="left" width="400"/><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src= "./pictures/BOM.jpg" align="left" width="400"/><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 - Finished project:
 
-<img src= "./images/finished_project.jpg" align="left" width="400"/>
+<img src= "./pictures/finished_project.jpg" align="left" width="400"/>
 
 
 
